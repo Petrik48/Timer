@@ -1,0 +1,20 @@
+.time {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  color: #fff;
+}
+
+.form {
+  height: 78px;
+  width: 48px;
+
+  & > input {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: inherit;
+    font-size: 54px;
+    color: #333;
+  }
+}

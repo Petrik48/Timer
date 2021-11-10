@@ -1,0 +1,21 @@
+.timer {
+  position: relative;
+
+}
+
+.timesWrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 500px;
+  font-size: 60px;
+  color: #fff;
+}
+
+div[aria-label='Countdown timer'] > svg > path:first-child {
+  stroke: #333;
+}

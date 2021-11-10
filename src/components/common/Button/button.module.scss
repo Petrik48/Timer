@@ -1,0 +1,36 @@
+.buttonWrapper {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFB800;
+  border-radius: 50px;
+  height: 60px;
+  width: 108px;
+  background: #333;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+}
+
+.buttonBg {
+  position: absolute;
+  right: -3px;
+  bottom: -6px;
+  border: 1px solid #FFB800;
+  border-radius: 50px;
+  height: 60px;
+  width: 108px;
+  background: #333;
+  z-index: -1;
+}
+
+.button:active {
+  transform: translate(2px, 5px);
+}
+
+.button:focus {
+  outline: 0;
+}
